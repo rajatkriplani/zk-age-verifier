@@ -1,0 +1,19 @@
+pragma language_version >= 0.16 && <= 0.17;
+import CompactStandardLibrary;
+
+export circuit verifyAge(
+  // The user's birthdate as a Uint64.
+  birthdateTimestamp: Uint<64>,
+  
+  // The current time, also Uint64.
+  currentTimestamp: Uint<64>
+): [] {
+  // 18 years in seconds as Uint64 constant
+  const eighteenYearsInSeconds: Uint<64> = 568024668;
+
+  // Calculations using Uint64 types
+  const ageInSeconds: Uint<64> = currentTimestamp - birthdateTimestamp;
+
+  // Directly compare ageInSeconds for simplicity
+  assert(ageInSeconds >= eighteenYearsInSeconds, "Verification failed: User is under 18.");
+}

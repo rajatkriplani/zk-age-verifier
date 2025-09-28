@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ZK Age Verification on Midnight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>ZK Age Verification on Midnight</h1>
+        <button id="connectWalletBtn">Connect Lace Wallet</button>
+        <div id="walletInfo" class="hidden"></div>
+        
+        <div id="mainContent" class="hidden">
+            <!-- Attendee Section -->
+            <div class="card">
+                <h2>1. Attendee: Generate Your Proof</h2>
+                <p>Select your date of birth. Your wallet will ask you to sign a transaction to prove you are over 18. The fee is paid in tDUST.</p>
+                <input type="date" id="birthdateInput" />
+                <button id="generateProofBtn">Generate & Submit Proof</button>
+                <div id="proofResult" class="hidden"></div>
+            </div>
+
+            <!-- Venue Section -->
+            <div class="card">
+                <h2>2. Venue: Verify an Attendee</h2>
+                <p>Scan the QR code from the attendee to instantly verify their age on the Midnight Testnet.</p>
+                <div id="scanner"></div>
+                <div id="verificationResult"></div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="/main.ts"></script>
+</body>
+</html>

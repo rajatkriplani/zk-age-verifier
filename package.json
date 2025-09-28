@@ -1,0 +1,24 @@
+{
+  "name": "zk-age-verifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@midnight-ntwrk/midnight-js-contracts": "^2.0.2",
+    "@midnight-ntwrk/midnight-js-http-client-proof-provider": "^2.0.2",
+    "@midnight-ntwrk/midnight-js-indexer-public-data-provider": "^2.0.2",
+    "@midnight-ntwrk/wallet-api": "^5.0.0",
+    "html5-qrcode": "^2.3.8",
+    "qrcode": "^1.5.4",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.5"
+  }
+}

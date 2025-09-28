@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "file": "index.cjs",
+  "sourceRoot": "../../../../",
+  "sources": ["VerifyAge.compact"],
+  "names": [],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAAA;;;;;;;;;;MAGA,AAAA,SAeC;;OAAA;;;GACA;EAnBD;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAmBC;EAhBD,AAAA,YAeC,CAbC,oBAA4B,EAG5B,kBAA0B;UAGpB,wBAA4C;UAG5C,cAA8D,8BAArC,kBAAgB;;sDAAG,oBAAkB;;4BAArC,kBAAgB,GAAG,oBAAkB;4BAG7D,cAAY,IAAI,wBAAsB;;;GAC9C;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAfD,AAAA,SAeC;;;;UAbC,oBAA4B;UAG5B,kBAA0B;;;;;;;;;;;;;;;uCAH1B,oBAA4B,EAG5B,kBAA0B;GAU3B;;;;;;;"
+}
